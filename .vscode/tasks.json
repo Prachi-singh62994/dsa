@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build & Run (stdin)",
+            "type": "shell",
+            "command": "g++-15 -std=c++17 -O2 -Wall -o '${fileDirname}/${fileBasenameNoExtension}' '${file}' && echo 'Compiled OK' && '${fileDirname}/${fileBasenameNoExtension}'",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "Build & Run (input file)",
+            "type": "shell",
+            "command": "g++-15 -std=c++17 -O2 -Wall -o '${fileDirname}/${fileBasenameNoExtension}' '${file}' && echo 'Compiled OK' && '${fileDirname}/${fileBasenameNoExtension}' < '${fileDirname}/in.txt'",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "clear": true
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}

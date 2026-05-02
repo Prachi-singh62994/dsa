@@ -8,7 +8,11 @@
       "Bash(/opt/homebrew/bin/gh repo:*)",
       "Bash(git rm:*)",
       "Bash(/opt/homebrew/bin/git -C . push)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(/opt/homebrew/bin/brew install:*)",
+      "Bash(chmod +x /Users/prachi/dsa/run.sh)",
+      "Bash(/opt/homebrew/bin/g++-15 -std=c++17 -O2 -Wall -o /tmp/test_template template.cpp)",
+      "Bash(rm /tmp/test_template)"
     ]
   }
 }
