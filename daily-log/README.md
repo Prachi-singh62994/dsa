@@ -11,8 +11,11 @@ One entry per day. Keep it short — what you studied, what clicked, what didn't
 **What I did:**
 - Created this repo following Striver's CP guide
 - Reviewed the full roadmap
+- Setup VSCode for CPP + competitive programming.
 
-**Problems solved:** 0
+**Problems solved:** 1
+
+- two_sum.cpp (Leetcode)
 
 ---
 
