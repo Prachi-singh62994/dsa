@@ -12,7 +12,13 @@
       "Bash(/opt/homebrew/bin/brew install:*)",
       "Bash(chmod +x /Users/prachi/dsa/run.sh)",
       "Bash(/opt/homebrew/bin/g++-15 -std=c++17 -O2 -Wall -o /tmp/test_template template.cpp)",
-      "Bash(rm /tmp/test_template)"
+      "Bash(rm /tmp/test_template)",
+      "Bash(clang++ -v -x c++ /dev/null -fsyntax-only)",
+      "Bash(sudo mkdir:*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); props=d.get\\('contributes',{}\\).get\\('configuration',{}\\).get\\('properties',{}\\); [print\\(k\\) for k in props if 'cpp' in k.lower\\(\\)]\")",
+      "Read(//Users/prachi/.vscode/extensions/**)",
+      "Bash(python3 -c ':*)",
+      "Bash(git config:*)"
     ]
   }
 }

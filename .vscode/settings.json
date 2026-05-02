@@ -8,5 +8,7 @@
     "editor.fontSize": 14,
     "terminal.integrated.defaultProfile.osx": "zsh",
     "C_Cpp.default.compilerPath": "/opt/homebrew/bin/g++-15",
-    "C_Cpp.default.cppStandard": "c++17"
+    "C_Cpp.default.cppStandard": "c++17",
+    "cph.language.cpp.Command": "/opt/homebrew/bin/g++-15",
+    "cph.language.cpp.Args": "-std=c++17 -O2 -Wall"
 }

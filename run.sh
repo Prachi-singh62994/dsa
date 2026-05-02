@@ -13,7 +13,7 @@ BINARY="${FILE%.cpp}"
 INPUT="$2"
 
 # Compile with GCC using contest-standard flags
-g++-15 -std=c++17 -O2 -Wall \
+/opt/homebrew/bin/g++-15 -std=c++17 -O2 -Wall \
     -o "$BINARY" "$FILE"
 
 if [ $? -ne 0 ]; then
